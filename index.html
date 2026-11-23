@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My First Website</title>
+    <style>
+        h1 {
+            color: red;
+            font-size: 50px;
+            margin-bottom: 40px;
+        }
+
+        p {
+            color: green;
+            font-size: 20px;
+        }
+
+        body {
+            background-color: lightyellow;
+            text-align: center;
+        }
+
+        .btn {
+            font-size: 18px;
+            border: none;
+            border-radius: 10px;
+            padding: 15px 30px;
+            margin-top: 30px;
+            transition: background-color 0.5s, opacity 0.5s;
+            box-shadow: 0px 4px 10px gray;
+            width: 250px;
+            height: 60px;
+            box-sizing: border-box;
+            cursor: pointer;
+        }
+
+        .primary:hover {
+            background-color: darkblue;
+        }
+
+        .secondary:hover {
+            opacity: 0.5;
+        }
+
+        .primary {
+            background-color: blue;
+            color: white;
+        }
+
+        .secondary {
+            background-color: green;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My Website</h1>
+    <p>Welcome to my website.</p>
+    <div class="container">
+        <button class="btn primary">Click Me</button>
+        <button class="btn secondary">Button 2</button>
+    </div>
+</body>
+
+</html>
